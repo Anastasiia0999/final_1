@@ -1,0 +1,28 @@
+@import "reset";
+@import "normalize";
+
+@import "bootstrap-override";
+
+@import "../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/variables";
+@import "../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/mixins";
+@import "../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/scaffolding";
+@import "../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/grid";
+
+
+
+@import "vars";
+
+@import "fonts";
+@import "colors";
+@import "extends";
+@import "mixins";
+
+@import "grid_first_page";
+@import "grid_second_page";
+@import "grid_third_page";
+
+@import "styles_first_page";
+@import "styles_second_page";
+@import "styles_third_page";
+
+
