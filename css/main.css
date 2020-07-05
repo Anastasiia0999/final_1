@@ -1433,6 +1433,157 @@ hr {
     margin-left: 100%;
   }
 }
+.modal-open {
+  overflow: hidden;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1050;
+  display: none;
+  overflow: hidden;
+  -webkit-overflow-scrolling: touch;
+  outline: 0;
+}
+.modal.fade .modal-dialog {
+  -webkit-transform: translate(0, -25%);
+  -ms-transform: translate(0, -25%);
+  -o-transform: translate(0, -25%);
+  transform: translate(0, -25%);
+  -webkit-transition: -webkit-transform 0.3s ease-out;
+  -moz-transition: -moz-transform 0.3s ease-out;
+  -o-transition: -o-transform 0.3s ease-out;
+  transition: transform 0.3s ease-out;
+}
+.modal.in .modal-dialog {
+  -webkit-transform: translate(0, 0);
+  -ms-transform: translate(0, 0);
+  -o-transform: translate(0, 0);
+  transform: translate(0, 0);
+}
+
+.modal-open .modal {
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.modal-dialog {
+  position: relative;
+  width: auto;
+  margin: 10px;
+}
+
+.modal-content {
+  position: relative;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #999;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+  -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+  outline: 0;
+}
+
+.modal-backdrop {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1040;
+  background-color: #000;
+}
+.modal-backdrop.fade {
+  filter: alpha(opacity=0);
+  opacity: 0;
+}
+.modal-backdrop.in {
+  filter: alpha(opacity=50);
+  opacity: 0.5;
+}
+
+.modal-header {
+  padding: 15px;
+  border-bottom: 1px solid #e5e5e5;
+}
+.modal-header:before, .modal-header:after {
+  display: table;
+  content: " ";
+}
+.modal-header:after {
+  clear: both;
+}
+
+.modal-header .close {
+  margin-top: -2px;
+}
+
+.modal-title {
+  margin: 0;
+  line-height: 1.428571429;
+}
+
+.modal-body {
+  position: relative;
+  padding: 15px;
+}
+
+.modal-footer {
+  padding: 15px;
+  text-align: right;
+  border-top: 1px solid #e5e5e5;
+}
+.modal-footer:before, .modal-footer:after {
+  display: table;
+  content: " ";
+}
+.modal-footer:after {
+  clear: both;
+}
+.modal-footer .btn + .btn {
+  margin-bottom: 0;
+  margin-left: 5px;
+}
+.modal-footer .btn-group .btn + .btn {
+  margin-left: -1px;
+}
+.modal-footer .btn-block + .btn-block {
+  margin-left: 0;
+}
+
+.modal-scrollbar-measure {
+  position: absolute;
+  top: -9999px;
+  width: 50px;
+  height: 50px;
+  overflow: scroll;
+}
+
+@media (min-width: 768px) {
+  .modal-dialog {
+    width: 600px;
+    margin: 30px auto;
+  }
+
+  .modal-content {
+    -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+  }
+
+  .modal-sm {
+    width: 300px;
+  }
+}
+@media (min-width: 992px) {
+  .modal-lg {
+    width: 900px;
+  }
+}
 /*@font-face {
     font-family: "Hind Siliguri"; 
     src: url("../fonts/HindSiliguri-Bold.ttf");
@@ -2764,6 +2915,55 @@ hr {
 @media (min-width: 1200px) {
   .button-end {
     margin-left: 43.3333333333%;
+  }
+}
+
+.m {
+  position: relative;
+  float: left;
+  width: 50%;
+  min-height: 1px;
+  padding-right: 10px;
+  padding-left: 10px;
+  position: relative;
+  min-height: 1px;
+  padding-right: 10px;
+  padding-left: 10px;
+  position: relative;
+  min-height: 1px;
+  padding-right: 10px;
+  padding-left: 10px;
+  position: relative;
+  min-height: 1px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+@media (min-width: 768px) {
+  .m {
+    float: left;
+    width: 50%;
+  }
+}
+@media (min-width: 992px) {
+  .m {
+    float: left;
+    width: 50%;
+  }
+}
+@media (min-width: 1200px) {
+  .m {
+    float: left;
+    width: 50%;
+  }
+}
+@media (min-width: 992px) {
+  .m {
+    margin-left: 16.6666666667%;
+  }
+}
+@media (min-width: 1200px) {
+  .m {
+    margin-left: 16.6666666667%;
   }
 }
 
@@ -4411,6 +4611,95 @@ footer {
   line-height: 25px;
 }
 
+.m {
+  display: none;
+  height: auto;
+  margin-top: 5%;
+  position: absolute;
+  z-index: 5;
+  background-color: #FCF6F6;
+}
+.m form {
+  padding-left: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  color: #4D4949;
+  font-family: "Hind Siliguri";
+  border: 1px solid grey;
+  border-radius: 5px;
+  box-shadow: 0 0 5px 2px;
+}
+.m form h2 {
+  padding-top: 20px;
+  padding-left: 27%;
+  font-size: 26px;
+  font-weight: bold;
+}
+.m form .info {
+  display: none;
+  padding: 20px 0px 20px 0px;
+  font-style: italic;
+  color: red;
+  font-weight: 600;
+  font-size: 18px;
+}
+.m form label {
+  font-size: 24px;
+  padding-right: 5%;
+}
+.m form .input {
+  width: 500px;
+  line-height: 30px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  font-size: 20px;
+  border: 1px solid grey;
+  border-radius: 5px;
+}
+.m form textarea {
+  width: 500px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  border: 1px solid grey;
+  border-radius: 5px;
+  font-size: 20px;
+}
+.m form .buttons {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.m form .button {
+  height: 45px;
+  width: 125px;
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  margin-right: 20px;
+  font-size: 20px;
+  text-decoration: none;
+  box-sizing: border-box;
+  letter-spacing: 0;
+  border: 1px solid #4D4949;
+  border-radius: 5px;
+  text-align: center;
+  background-color: #efe9df;
+  color: #4D4949;
+  font-size: 20px;
+  background-color: #FCF6F6;
+}
+.m form .button font {
+  family: "Hind Siliguri";
+  size: 15px;
+}
+.m form .button:hover {
+  color: white;
+  background: #393737;
+}
+
 .header__blog {
   padding: 0px;
   display: flex;
@@ -4449,6 +4738,35 @@ footer {
 .header__blog__navigation #blog {
   text-decoration: underline;
   font-weight: bold;
+}
+
+.add-post {
+  text-align: right;
+  margin-top: 20px;
+}
+.add-post .trends-button {
+  height: 45px;
+  width: 125px;
+  padding: 10px;
+  margin-top: 30px;
+  text-decoration: none;
+  box-sizing: border-box;
+  letter-spacing: 0;
+  border: 1px solid #4D4949;
+  border-radius: 5px;
+  text-align: center;
+  background-color: #efe9df;
+  color: #4D4949;
+  font-size: 20px;
+  background-color: #FCF6F6;
+}
+.add-post .trends-button font {
+  family: "Hind Siliguri";
+  size: 15px;
+}
+.add-post .trends-button:hover {
+  color: white;
+  background: #393737;
 }
 
 .blog__title {
@@ -4516,6 +4834,11 @@ footer {
   height: 20px;
 }
 
+.blog__boxes {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
 .blog-box {
   margin-bottom: 50px;
   display: flex;
@@ -4530,6 +4853,8 @@ footer {
 .blog-box__image {
   width: 46%;
   z-index: 1;
+  border-radius: 5px;
+  overflow: hidden;
 }
 .blog-box__play {
   position: absolute;
@@ -4551,6 +4876,11 @@ footer {
 .blog-box__info__author {
   display: flex;
   flex-direction: row;
+}
+.blog-box__info__author img {
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
 }
 .blog-box__info__author .statistic {
   padding-left: 20px;
@@ -4646,21 +4976,31 @@ footer {
   height: 37px;
   margin-bottom: 10px;
 }
-.blog-box__info button {
+.blog-box__info .button {
   height: 45px;
   width: 121px;
   display: block;
   margin-bottom: 20px;
+  padding-top: 10px;
   border: 1px solid #4D4949;
   border-radius: 5px;
   font-family: "Hind Siliguri";
   font-size: 15px;
   letter-spacing: 0;
   line-height: 25px;
-  color: #4D4949;
+  text-decoration: none;
   background-color: #FCF6F6;
+  color: #4D4949;
+  text-align: center;
 }
-.blog-box__info button:hover {
+.blog-box__info .button a {
+  text-decoration: none;
+  color: #4D4949;
+}
+.blog-box__info .button a:hover {
+  color: white;
+}
+.blog-box__info .button:hover {
   background: #393737;
   color: white;
 }
@@ -5108,6 +5448,7 @@ footer {
   width: 100%;
   margin-top: 20px;
   margin-bottom: 15px;
+  border-radius: 5px;
 }
 .page__audio {
   height: 54px;
@@ -5531,11 +5872,11 @@ footer {
 }
 
 .post__latest-posts {
-  margin-top: 250px;
+  margin-top: 220px;
   border-radius: 5px;
   display: flex;
   flex-direction: column;
-  align-items: left;
+  align-items: flex-start;
   background-color: #FCF6F6;
   box-sizing: border-box;
 }

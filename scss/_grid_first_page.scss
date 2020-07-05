@@ -1,13 +1,14 @@
+
 .header{
-    
+
     &__box{
-        
+
         @include make-xs-column(12);
         @include make-sm-column(12);
         @include make-md-column(12);
         @include make-lg-column(12);
     }
-    
+
     &__text{
         @include make-xs-column(12);
         @include make-sm-column(12);
@@ -18,16 +19,16 @@
 
 
 .box-about-us {
-    
+
     &__title{
         @include make-xs-column(12);
         @include make-sm-column(12);
         @include make-md-column(12);
         @include make-lg-column(12);
     }
-    
+
     &__text{
-        
+
         @include make-xs-column(4);
         @include make-sm-column(4);
         @include make-md-column(4);
@@ -37,35 +38,35 @@
         @include make-md-column-offset(4);
         @include make-lg-column-offset(3.6);
     }
-    
+
     &__boxes{
-        
+
        @include make-xs-column(12);
        @include make-sm-column(12);
        @include make-md-column(3);
        @include make-lg-column(3);
     }
-    
+
     &__video{
-        
+
         @include make-xs-column(12);
         @include make-sm-column(12);
         @include make-md-column(9);
         @include make-lg-column(9);
-        
+
     }
-    
+
 }
 
 .latest-posts{
-    
+
      &__title{
         @include make-xs-column(12);
         @include make-sm-column(12);
         @include make-md-column(12);
         @include make-lg-column(12);
     }
-    
+
     &__text{
         @include make-xs-column(5);
         @include make-sm-column(5);
@@ -74,9 +75,9 @@
         @include make-xs-column-offset(3.5);
         @include make-sm-column-offset(3.5);
         @include make-md-column-offset(3.5);
-        @include make-lg-column-offset(3.5); 
+        @include make-lg-column-offset(3.5);
     }
-    
+
     &__boxes{
         @include make-xs-column(12);
         @include make-sm-column(12);
@@ -87,30 +88,30 @@
 }
 
 .latest-portfolio{
-    
+
      &__title{
         @include make-xs-column(12);
         @include make-sm-column(12);
         @include make-md-column(12);
         @include make-lg-column(12);
     }
-    
+
     &__text{
         @include make-xs-column(12);
         @include make-sm-column(12);
         @include make-md-column(12);
         @include make-lg-column(12);
     }
-    
+
     &__boxes{
         @include make-xs-column(12);
         @include make-sm-column(12);
         @include make-md-column(4);
         @include make-lg-column(4);
     }
-    
+
     &__button-left{
-        
+
         @include make-xs-column(1);
         @include make-sm-column(1);
         @include make-md-column(1);
@@ -119,10 +120,10 @@
         @include make-sm-column-offset(0);
         @include make-md-column-offset(4);
         @include make-lg-column-offset(4);
-        
+
     }
       &__button-right{
-        
+
         @include make-xs-column(1);
         @include make-sm-column(1);
         @include make-md-column(1);
@@ -131,11 +132,11 @@
         @include make-sm-column-offset(9);
         @include make-md-column-offset(3);
         @include make-lg-column-offset(3);
-        
+
     }
-    
+
     &__button-all{
-        
+
         @include make-xs-column(1.5);
         @include make-sm-column(1.5);
         @include make-md-column(1.5);
@@ -145,20 +146,20 @@
         @include make-md-column-offset(5.3);
         @include make-lg-column-offset(5.3);
     }
-    
+
 }
 
 .testimonials{
-    
+
      &__title{
         @include make-xs-column(12);
         @include make-sm-column(12);
         @include make-md-column(12);
         @include make-lg-column(12);
     }
-    
+
      &__button-left{
-        
+
         @include make-xs-column(1);
         @include make-sm-column(1);
         @include make-md-column(1);
@@ -167,11 +168,11 @@
         @include make-sm-column-offset(0);
         @include make-md-column-offset(2.5);
         @include make-lg-column-offset(2.5);
-        
+
     }
-    
+
     &__person-box{
-        
+
         @include make-xs-column(9);
         @include make-sm-column(9);
         @include make-md-column(6);
@@ -182,36 +183,36 @@
         @include make-lg-column-offset(0);
     }
       &__button-right{
-        
+
         @include make-xs-column(1);
         @include make-sm-column(1);
         @include make-md-column(1);
         @include make-lg-column(1);
-        
+
     }
-    
+
 }
 
 .contact-us{
-    
+
     &__head{
-    
+
         &__title{
 
             @include make-xs-column(12);
             @include make-sm-column(12);
             @include make-md-column(12);
             @include make-lg-column(12);
-            
+
         }
 
         &__text{
-            
+
             @include make-xs-column(12);
             @include make-sm-column(12);
             @include make-md-column(12);
             @include make-lg-column(12);
-            
+
         }
         &__icons{
 
@@ -220,21 +221,21 @@
             @include make-md-column(12);
             @include make-lg-column(12);
         }
-    
+
     }
-    
+
     &__info{
-        
+
         &__next-step{
-            
+
             @include make-xs-column(12);
             @include make-sm-column(12);
             @include make-md-column(4.5);
             @include make-lg-column(4.5);
         }
-        
+
         &__personal-info{
-            
+
              @include make-xs-column(12);
              @include make-sm-column(12);
              @include make-md-column(7.5);
@@ -244,7 +245,7 @@
 }
 
 .footer-box{
-    
+
         @include make-xs-column(12);
         @include make-sm-column(12);
         @include make-md-column(12);
