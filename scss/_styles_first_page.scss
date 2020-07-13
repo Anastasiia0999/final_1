@@ -509,11 +509,29 @@
 
     &__boxes{
 
-        margin-top:60px;
-        padding-right:30px;
+      box-sizing: content-box;
+      margin-top:60px;
+      width: 1200px;
+      overflow: hidden;
+      position: relative;
+      height:265px;
+
+      ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        transition: margin-left 250ms;
+        font-size: 0;
+      }
+
+      li {
+        display: inline-block;
+        margin: 10px 5px 10px 5px;
+        width:390px;
+        //padding: 10px 40px;
+      }
 
         &__first-post{
-
             @include latest-portfolio;
             background: url("../images_first_page/bg%20img1.png") 100% 100%;
             background-size: cover;
@@ -538,10 +556,63 @@
             border-radius:5px;
             overflow:hidden;
         }
+      &__fourth-post{
+
+        @include latest-portfolio;
+        background: url("../images_first_page/post_4.jpg") 100% 100%;
+        background-size: cover;
+        border-radius:5px;
+        overflow:hidden;
+      }
+
+      &__fifth-post{
+
+        @include latest-portfolio;
+        background: url("../images_first_page/post_5.jpg") 100% 100%;
+        background-size: cover;
+        border-radius:5px;
+        overflow:hidden;
+      }
+
+      &__sixth-post{
+
+        @include latest-portfolio;
+        background: url("../images_first_page/post_6.jpeg") 100% 100%;
+        background-size: cover;
+        border-radius:5px;
+        overflow:hidden;
+      }
+      &__seventh-post{
+
+        @include latest-portfolio;
+        background: url("../images_first_page/post_7.jpg") 100% 100%;
+        background-size: cover;
+        border-radius:5px;
+        overflow:hidden;
+      }
+
+      &__eighth-post{
+
+        @include latest-portfolio;
+        background: url("../images_first_page/post_8.jpg") 100% 100%;
+        background-size: cover;
+        border-radius:5px;
+        overflow:hidden;
+      }
+
+      &__ninth-post{
+
+        @include latest-portfolio;
+        background: url("../images_first_page/post_9.jpg") 100% 100%;
+        background-size: cover;
+        border-radius:5px;
+        overflow:hidden;
+      }
 
         &__title{
 
           height: 32px;
+          padding-top:80px;
           color: #FFFFFF;
           font-family: $main-font;
           font-size: 20px;
@@ -556,6 +627,7 @@
         &__text{
 
           height: 25px;
+          padding-top:40px;
           color: #FFFFFF;
           font-family: $main-font;
           font-size: 15px;
@@ -623,6 +695,108 @@
             @include post-after--hover;
 
         }
+      &__fourth-post:hover{
+
+        box-shadow: 0 0 10px rgba(0,0,0,0.5);
+      }
+
+      &__fourth-post:hover:before{
+
+        @include post--hover;
+        @include post-before--hover;
+
+      }
+      &__fourth-post:hover:after{
+
+        @include post--hover;
+        @include post-after--hover;
+
+      }
+      &__fifth-post:hover{
+
+        box-shadow: 0 0 10px rgba(0,0,0,0.5);
+      }
+
+      &__fifth-post:hover:before{
+
+        @include post--hover;
+        @include post-before--hover;
+
+      }
+      &__fifth-post:hover:after{
+
+        @include post--hover;
+        @include post-after--hover;
+
+      }
+      &__sixth-post:hover{
+
+        box-shadow: 0 0 10px rgba(0,0,0,0.5);
+      }
+
+      &__sixth-post:hover:before{
+
+        @include post--hover;
+        @include post-before--hover;
+
+      }
+      &__sixth-post:hover:after{
+
+        @include post--hover;
+        @include post-after--hover;
+
+      }
+      &__seventh-post:hover{
+
+        box-shadow: 0 0 10px rgba(0,0,0,0.5);
+      }
+
+      &__seventh-post:hover:before{
+
+        @include post--hover;
+        @include post-before--hover;
+
+      }
+      &__seventh-post:hover:after{
+
+        @include post--hover;
+        @include post-after--hover;
+
+      }
+      &__eighth-post:hover{
+
+        box-shadow: 0 0 10px rgba(0,0,0,0.5);
+      }
+
+      &__eighth-post:hover:before{
+
+        @include post--hover;
+        @include post-before--hover;
+
+      }
+      &__eighth-post:hover:after{
+
+        @include post--hover;
+        @include post-after--hover;
+
+      }
+      &__ninth-post:hover{
+
+        box-shadow: 0 0 10px rgba(0,0,0,0.5);
+      }
+
+      &__ninth-post:hover:before{
+
+        @include post--hover;
+        @include post-before--hover;
+
+      }
+      &__ninth-post:hover:after{
+
+        @include post--hover;
+        @include post-after--hover;
+
+      }
     }
 
     &__button-left{
@@ -838,27 +1012,48 @@
 
     &__person-box{
 
-        width: 45%;
-        padding:0px;
+      position: relative;
+      overflow: hidden;
+      width: 580px;
+      padding:0px;
+      border-radius: 5px;
+      background-color: #FFFFFF;
+      box-shadow: 0 8px 25px 0 rgba(109,109,109,0.5);
+      overflow: hidden;
+
+      ul{
+        height:260px;
+        list-style: none;
+        transition: margin-left 250ms;
+        width: 9999px;
+        padding-bottom: 7px;
+        padding: 0;
+      }
+      li {
+        display: inline-block;
+        margin:0;
+        padding:0;
+      }
+      .testimonials__flex{
         display:flex;
-        flex-flow:row wrap;
-        border-radius: 5px;
-        background-color: #FFFFFF;
-        box-shadow: 0 8px 25px 0 rgba(109,109,109,0.5);
-        overflow: hidden;
+        flex-direction: row;
+        width:600px;
+      }
 
         &__info{
+          height: 265px;
+          background-color: $main-dark;
+          color:#ffffff;
 
+          .testimonials__person-box__info-left{
             width: 50%;
             height: 265px;
-            background-color: $main-dark;
-            color:#ffffff;
+          }
 
             &__text{
 
-              width: 70%;
-              margin-left:48px;
-              margin-top:53px;
+              padding-left:48px;
+              padding-top:53px;
               font-family: $main-font;
               font-size: 17px;
               font-weight: 600;
@@ -904,13 +1099,31 @@
 
         }
 
-         &__photo{
+         &__photo1{
 
             width: 50%;
-            height: 265px;
+            height: 263px;
             background: url("../images_first_page/User%20img.png")100% 100%;
             background-position:cover;
             background-repeat: no-repeat;
+
+        }
+        &__photo2{
+
+          width: 50%;
+          height: 263px;
+          background: url("../images_first_page/testimon_2.png")10% 10%;
+          background-position:cover;
+          background-repeat: no-repeat;
+
+        }
+        &__photo3{
+
+          width: 50%;
+          height: 263px;
+          background: url("../images_first_page/testimon_3.png")100% 100%;
+          background-position:cover;
+          background-repeat: no-repeat;
 
         }
 
