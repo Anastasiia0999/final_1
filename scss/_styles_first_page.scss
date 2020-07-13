@@ -1,6 +1,6 @@
 
 .header{
-    
+
     height: 600px;
     background: url("../images_first_page/bg.jpg")100% 100%;
     background-size: cover;
@@ -12,16 +12,16 @@
         display:flex;
         flex-direction: row;
         justify-content: space-between;
-        
+
     }
 
     &__logo{
 
         @include header-logo;
- 
+
     }
 
- 
+
     &__navigation{
 
         @include header-nav;
@@ -58,7 +58,7 @@
             line-height: 26px;
 
         }
-        
+
         .button-explore{
 
             @include button-dark;
@@ -70,10 +70,10 @@
 
         .button-more{
 
-            @include button-light;  
+            @include button-light;
             height: 45px;
-            width: 125px; 
-            margin-left:25px; 
+            width: 125px;
+            margin-left:25px;
         }
 
         .button-explore:hover{
@@ -132,10 +132,10 @@
                 .button-more{
 
                   height: 30px;
-                  width: 100px; 
+                  width: 100px;
                   margin-left:25px;
 
-                  @include button-light;   
+                  @include button-light;
                 }
 
                 .button-explore:hover{
@@ -151,17 +151,17 @@
                 }
 
         }
-        
+
     }
 }
 
 
 
 .box-about-us{
-    
-    
+
+
     &__title{
-        
+
         @include main-title;
         margin-top:80px;
         line-height: 39px;
@@ -191,11 +191,11 @@
             height:1px;
             font-weight:100;
         }
-    
+
     }
-    
+
     &__text{
-      
+
       padding-bottom:60px;
       margin-left:33%;
       color: $main-dark;
@@ -204,157 +204,157 @@
       letter-spacing: 0;
       line-height: 26px;
       text-align: center;
-        
+
     }
-    
-    
+
+
     &__boxes{
-        
+
         padding:0px;
         padding-right:0px;
 
     }
-    
-    
+
+
     &__typography{
-        
+
         @include about-us-box;
         background-color: #FFB0B0;
         background: -webkit-linear-gradient(146deg, rgba(230,246,65,0.5) 0%, rgba(41,252,154,0.5) 100%);
         background: -o-linear-gradient(146deg, rgba(230,246,65,0.5) 0%, rgba(41,252,154,0.5) 100%);
         background: linear-gradient(236deg, rgba(230,246,65,0.5) 0%, rgba(41,252,154,0.5) 100%);
         border-top-right-radius: 20% 30%;
-        
+
     }
-    
+
     &__typography::after{
-        
+
        @include corner-top-right;
-         
+
     }
-    
+
     &__icons{
-        
+
       @include about-us-box;
       background-color: #B0D1FF;
       background: -webkit-linear-gradient(347deg, rgba(35,86,255,0.52) 0%, rgba(47,247,247,0.5) 100%);
       background: -o-linear-gradient(347deg, rgba(35,86,255,0.52) 0%, rgba(47,247,247,0.5) 100%);
       background: linear-gradient(77deg, rgba(35,86,255,0.52) 0%, rgba(47,247,247,0.5) 100%);
       border-top-left-radius: 20% 30%;
-         
+
     }
-    
+
     &__icons::after{
-        
+
        @include corner-top-left;
-        
+
     }
-    
+
     &__accurate{
-           
+
       @include about-us-box;
       background-color: #FFB0B0;
       background: -webkit-linear-gradient(312deg, rgba(255,255,255,0.5) 0%, rgba(255,9,9,0.5) 100%);
       background: -o-linear-gradient(312deg, rgba(255,255,255,0.5) 0%, rgba(255,9,9,0.5) 100%);
       background: linear-gradient(42deg, rgba(255,255,255,0.5) 0%, rgba(255,9,9,0.5) 100%);
       border-top-right-radius: 20% 30%;
-        
+
     }
-    
+
     &__accurate::after{
-        
+
        @include corner-top-right;
-         
-        
+
+
     }
-    
+
     &__video{
-        
+
        height: 592px;
        padding:0px;
        background: url("../images_first_page/About%20picture.png");
        background-size: cover;
-       background-color: rgba(234,234,234,0.6); 
+       background-color: rgba(234,234,234,0.6);
        display:flex;
        flex-direction: column;
        align-items: center;
        justify-content: center;
        border-radius:5px;
     }
-    
+
      @media screen and (min-width: 323px) and (max-width: 991px){
-        
-        
+
+
         &__boxes{
-        
+
         padding:0px;
         display:flex;
         flex-direction: column;
         align-items: center;
-            
-        }   
-        
+
+        }
+
         &__typography::after{
-        
+
            display:none;
-        
+
         }
-        
-        
+
+
         &__icons::after{
-        
+
            display:none;
-        
+
         }
-        
+
         &__accurate::after{
-        
+
            display:none;
-         
+
         }
-        
+
         &__video{
-        
+
            height: 300px;
            width: 80%;
            padding:0px;
            margin-left:10%;
            background: url("../images_first_page/About%20picture.png")100% 100%;
            background-size: cover;
-           background-color: rgba(234,234,234,0.6); 
+           background-color: rgba(234,234,234,0.6);
            display:flex;
            flex-direction: column;
            align-items: center;
            justify-content: center;
            border-radius:5px;
         }
-        
-        
+
+
     }
-    
-    
+
+
 }
-    
+
 
 
 .latest-posts{
-    
+
     margin-top:60px;
     margin-bottom:80px;
-    
+
      &__title{
-      
+
       @include main-title;
       line-height: 39px;
-         
+
          p{
             @include main-text;
             height: 8px;
-            width: 130px;   
+            width: 130px;
          }
-         
+
          &__under::before{
-        
+
             content:"-";
             position:relative;
             top:-13px;
@@ -362,9 +362,9 @@
             height:1px;
             font-weight:100;
         }
-    
+
         &__under::after{
-        
+
             content:"-";
             position:relative;
             top:-13px;
@@ -372,22 +372,22 @@
             height:1px;
             font-weight:100;
         }
-         
+
     }
-    
+
     &__text{
-      
+
       @include main-text;
-        
+
     }
 
     &__boxes{
-        
+
         margin-top:60px;
         padding-right: 30px;
-        
+
         &__title{
-            
+
           width: 100%;
           margin-bottom:5px;
           color: $main-dark;
@@ -396,11 +396,11 @@
           font-weight: 500;
           letter-spacing: 0;
           line-height: 32px;
-            
+
         }
-        
+
         &__text{
-            
+
           width: 100%;
           margin-bottom:20px;
           color: $main-dark;
@@ -408,21 +408,21 @@
           font-size: 15px;
           letter-spacing: 0;
           line-height: 24px;
-            
+
         }
-        
+
         &__title:hover{
-            
+
             color:$main-dark;
         }
-            
+
         &__info{
-            
+
             @include statistic;
             width: 70%;
         }
-    
-        
+
+
         &__first-post{
 
             &__img{
@@ -430,7 +430,7 @@
                 @include latest-post;
                 background: url("../images_first_page/Img%20post%201.png")100% 100%;
                 background-size: cover;
-                
+
             }
 
         }
@@ -444,7 +444,7 @@
                 background-size: cover;
 
             }
-            
+
         }
 
         &__third-post{
@@ -456,31 +456,31 @@
                 background-size: cover;
 
             }
-         
+
         }
-               
+
     }
 
 }
 
 .latest-portfolio{
-    
+
     margin-bottom:60px;
-    
+
     &__title{
-      
+
       @include main-title;
       line-height: 39px;
-         
+
          p{
             @include main-text;
             height: 8px;
             width: 165px;
-             
+
          }
-        
+
         &__under::before{
-        
+
             content:"-";
             position:relative;
             top:-13px;
@@ -488,9 +488,9 @@
             height:1px;
             font-weight:100;
         }
-    
+
         &__under::after{
-        
+
             content:"-";
             position:relative;
             top:-13px;
@@ -498,50 +498,121 @@
             height:1px;
             font-weight:100;
         }
-         
+
     }
-    
+
     &__text{
-   
-      @include main-text;  
-        
+
+      @include main-text;
+
     }
-    
+
     &__boxes{
-        
-        margin-top:60px;
-        padding-right:30px;
-        
+
+      box-sizing: content-box;
+      margin-top:60px;
+      width: 1200px;
+      overflow: hidden;
+      position: relative;
+      height:265px;
+
+      ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        transition: margin-left 250ms;
+        font-size: 0;
+      }
+
+      li {
+        display: inline-block;
+        margin: 10px 5px 10px 5px;
+        width:390px;
+        //padding: 10px 40px;
+      }
+
         &__first-post{
-            
             @include latest-portfolio;
             background: url("../images_first_page/bg%20img1.png") 100% 100%;
             background-size: cover;
             border-radius:5px;
             overflow:hidden;
         }
-        
+
         &__second-post{
-            
+
             @include latest-portfolio;
             background: url("../images_first_page/bg%20img2.png") 100% 100%;
             background-size: cover;
             border-radius:5px;
             overflow:hidden;
         }
-        
+
         &__third-post{
-            
+
             @include latest-portfolio;
             background: url("../images_first_page/bg%20img%203.png") 100% 100%;
             background-size: cover;
             border-radius:5px;
             overflow:hidden;
         }
-        
+      &__fourth-post{
+
+        @include latest-portfolio;
+        background: url("../images_first_page/post_4.jpg") 100% 100%;
+        background-size: cover;
+        border-radius:5px;
+        overflow:hidden;
+      }
+
+      &__fifth-post{
+
+        @include latest-portfolio;
+        background: url("../images_first_page/post_5.jpg") 100% 100%;
+        background-size: cover;
+        border-radius:5px;
+        overflow:hidden;
+      }
+
+      &__sixth-post{
+
+        @include latest-portfolio;
+        background: url("../images_first_page/post_6.jpeg") 100% 100%;
+        background-size: cover;
+        border-radius:5px;
+        overflow:hidden;
+      }
+      &__seventh-post{
+
+        @include latest-portfolio;
+        background: url("../images_first_page/post_7.jpg") 100% 100%;
+        background-size: cover;
+        border-radius:5px;
+        overflow:hidden;
+      }
+
+      &__eighth-post{
+
+        @include latest-portfolio;
+        background: url("../images_first_page/post_8.jpg") 100% 100%;
+        background-size: cover;
+        border-radius:5px;
+        overflow:hidden;
+      }
+
+      &__ninth-post{
+
+        @include latest-portfolio;
+        background: url("../images_first_page/post_9.jpg") 100% 100%;
+        background-size: cover;
+        border-radius:5px;
+        overflow:hidden;
+      }
+
         &__title{
-            
+
           height: 32px;
+          padding-top:80px;
           color: #FFFFFF;
           font-family: $main-font;
           font-size: 20px;
@@ -550,12 +621,13 @@
           line-height: 32px;
           text-align: center;
           text-transform: uppercase;
-            
+
         }
-        
+
         &__text{
-            
+
           height: 25px;
+          padding-top:40px;
           color: #FFFFFF;
           font-family: $main-font;
           font-size: 15px;
@@ -563,138 +635,240 @@
           letter-spacing: 0;
           line-height: 25px;
           text-align: center;
-          
-        }
-    }
-    
-    
-    &__boxes{
-        
-        &__first-post:hover{
-        
-            box-shadow: 0 0 10px rgba(0,0,0,0.5);   
 
         }
-        
+    }
+
+
+    &__boxes{
+
+        &__first-post:hover{
+
+            box-shadow: 0 0 10px rgba(0,0,0,0.5);
+
+        }
+
         &__first-post:hover:before{
-            
+
             @include post--hover;
             @include post-before--hover;
-                   
+
         }
         &__first-post:hover:after{
-            
-            @include post--hover;  
+
+            @include post--hover;
             @include post-after--hover;
-            
+
         }
         &__second-post:hover{
-        
+
             box-shadow: 0 0 10px rgba(0,0,0,0.5);
         }
-        
+
         &__second-post:hover:before{
-            
+
             @include post--hover;
             @include post-before--hover;
-                   
+
         }
         &__second-post:hover:after{
-            
-            @include post--hover;  
+
+            @include post--hover;
             @include post-after--hover;
-            
+
         }
         &__third-post:hover{
-        
+
             box-shadow: 0 0 10px rgba(0,0,0,0.5);
-        
+
         }
-        
+
         &__third-post:hover:before{
-            
+
            @include post--hover;
            @include post-before--hover;
-                   
+
         }
         &__third-post:hover:after{
-            
-            @include post--hover;  
+
+            @include post--hover;
             @include post-after--hover;
-            
+
         }
+      &__fourth-post:hover{
+
+        box-shadow: 0 0 10px rgba(0,0,0,0.5);
+      }
+
+      &__fourth-post:hover:before{
+
+        @include post--hover;
+        @include post-before--hover;
+
+      }
+      &__fourth-post:hover:after{
+
+        @include post--hover;
+        @include post-after--hover;
+
+      }
+      &__fifth-post:hover{
+
+        box-shadow: 0 0 10px rgba(0,0,0,0.5);
+      }
+
+      &__fifth-post:hover:before{
+
+        @include post--hover;
+        @include post-before--hover;
+
+      }
+      &__fifth-post:hover:after{
+
+        @include post--hover;
+        @include post-after--hover;
+
+      }
+      &__sixth-post:hover{
+
+        box-shadow: 0 0 10px rgba(0,0,0,0.5);
+      }
+
+      &__sixth-post:hover:before{
+
+        @include post--hover;
+        @include post-before--hover;
+
+      }
+      &__sixth-post:hover:after{
+
+        @include post--hover;
+        @include post-after--hover;
+
+      }
+      &__seventh-post:hover{
+
+        box-shadow: 0 0 10px rgba(0,0,0,0.5);
+      }
+
+      &__seventh-post:hover:before{
+
+        @include post--hover;
+        @include post-before--hover;
+
+      }
+      &__seventh-post:hover:after{
+
+        @include post--hover;
+        @include post-after--hover;
+
+      }
+      &__eighth-post:hover{
+
+        box-shadow: 0 0 10px rgba(0,0,0,0.5);
+      }
+
+      &__eighth-post:hover:before{
+
+        @include post--hover;
+        @include post-before--hover;
+
+      }
+      &__eighth-post:hover:after{
+
+        @include post--hover;
+        @include post-after--hover;
+
+      }
+      &__ninth-post:hover{
+
+        box-shadow: 0 0 10px rgba(0,0,0,0.5);
+      }
+
+      &__ninth-post:hover:before{
+
+        @include post--hover;
+        @include post-before--hover;
+
+      }
+      &__ninth-post:hover:after{
+
+        @include post--hover;
+        @include post-after--hover;
+
+      }
     }
-    
+
     &__button-left{
-        
+
         @include testimonials-button;
         margin-top:40px;
         transform:rotate(90deg);
-        
+
         img{
-            
+
             height: 28px;
             width: 20px;
-            
+
         }
     }
-    
+
     &__button-right{
-        
+
         @include testimonials-button;
         margin-top:40px;
         transform:rotate(-90deg);
-        
-        
+
+
         img{
-            
+
             height: 28px;
             width: 20px;
-            
+
         }
     }
-    
+
     &__button-all{
-        
-      @include button-light;  
+
+      @include button-light;
       height: 45px;
       width: 136px;
       margin-top:40px;
       background: white;
-    
+
     }
-    
+
     &__button-right:hover{
-        
+
         box-shadow: 0 0 10px rgba(0,0,0,0.5);
     }
-    
+
      &__button-left:hover{
-        
+
         box-shadow: 0 0 10px rgba(0,0,0,0.5);
     }
-    
+
     &__button-all:hover{
-        
+
         background-color: $button-color--hover;
         color:white;
     }
-    
+
      @media screen and (min-width: 323px) and (max-width: 991px){
-         
+
          &__button-right{
-        
+
             display:none;
-             
+
         }
 
          &__button-left{
 
             display:none;
         }
-         
+
          &__boxes{
-             
+
                 &__first-post:hover{
 
                     display:none;
@@ -745,38 +919,38 @@
                     display:none;
 
                 }
-             
+
          }
     }
-        
-        
-       
+
+
+
 }
 
 .testimonials{
-    
+
     height:529px;
     background: url("../images_first_page/Bg%20testimonial.png")100% 100%;
     background-repeat: no-repeat;
     background-size: cover;
     background-color: rgba(222,222,222,0.6);
-    
+
     &__title{
-        
+
       @include main-title;
       margin-top:80px;
-      margin-bottom:54.5px; 
-         
+      margin-bottom:54.5px;
+
          p{
-            
+
             @include main-text;
             height: 8px;
             width: 135px;
-             
+
          }
-        
+
         &__under::before{
-        
+
             content:"-";
             position:relative;
             top:-13px;
@@ -784,9 +958,9 @@
             height:1px;
             font-weight:100;
         }
-    
+
         &__under::after{
-        
+
             content:"-";
             position:relative;
             top:-13px;
@@ -794,81 +968,102 @@
             height:1px;
             font-weight:100;
         }
-         
+
     }
 
-    
+
       &__button-left{
-        
+
         @include testimonials-button;
         margin-right:30px;
-        
-        
+
+
         img{
-            
+
             height: 28px;
             width: 20px;
             transform:rotate(90deg);
         }
     }
-    
+
     &__button-right{
-        
+
         @include testimonials-button;
         margin-left:30px;
-        
+
         img{
-            
+
             height: 28px;
             width: 20px;
             transform:rotate(-90deg);
-            
+
         }
     }
-    
+
     &__button-right:hover{
-        
+
         box-shadow: 0 0 10px rgba(0,0,0,0.5);
     }
-    
+
      &__button-left:hover{
-        
+
         box-shadow: 0 0 10px rgba(0,0,0,0.5);
     }
-    
+
     &__person-box{
-        
-        width: 45%;
-        padding:0px;
+
+      position: relative;
+      overflow: hidden;
+      width: 580px;
+      padding:0px;
+      border-radius: 5px;
+      background-color: #FFFFFF;
+      box-shadow: 0 8px 25px 0 rgba(109,109,109,0.5);
+      overflow: hidden;
+
+      ul{
+        height:260px;
+        list-style: none;
+        transition: margin-left 250ms;
+        width: 9999px;
+        padding-bottom: 7px;
+        padding: 0;
+      }
+      li {
+        display: inline-block;
+        margin:0;
+        padding:0;
+      }
+      .testimonials__flex{
         display:flex;
-        flex-flow:row wrap;
-        border-radius: 5px;
-        background-color: #FFFFFF;
-        box-shadow: 0 8px 25px 0 rgba(109,109,109,0.5);
-        overflow: hidden;
-        
+        flex-direction: row;
+        width:600px;
+      }
+
         &__info{
-            
+          height: 265px;
+          background-color: $main-dark;
+          color:#ffffff;
+
+          .testimonials__person-box__info-left{
             width: 50%;
             height: 265px;
-            background-color: $main-dark;
-            color:#ffffff;
-            
+          }
+
             &__text{
-                
-              width: 70%;
-              margin-left:48px;
-              margin-top:53px;
+
+              padding-left:48px;
+              padding-top:53px;
               font-family: $main-font;
               font-size: 17px;
               font-weight: 600;
               letter-spacing: 0;
               position: relative;
-                
+
             }
-            
+
             &__text::before{
-                
+
                 content:"“";
                 position: absolute;
                 top:-15px;
@@ -878,80 +1073,98 @@
                 font-weight: bold;
                 letter-spacing: 0;
                 line-height: 45px;
-                
+
             }
-            
+
             &__name{
-                
+
                 margin-left:48px;
                 margin-top:37px;
                 font-family: $main-font;
                 font-size: 15px;
                 letter-spacing: 0;
                 line-height: 25px;
-                
+
             }
-            
+
             &__post{
-                
+
                 margin-left:48px;
                 font-family: $main-font;
                 font-size: 15px;
                 letter-spacing: 0;
                 line-height: 25px;
-                
+
             }
-            
+
         }
-        
-         &__photo{
-             
+
+         &__photo1{
+
             width: 50%;
-            height: 265px;
+            height: 263px;
             background: url("../images_first_page/User%20img.png")100% 100%;
             background-position:cover;
             background-repeat: no-repeat;
-            
+
         }
-  
+        &__photo2{
+
+          width: 50%;
+          height: 263px;
+          background: url("../images_first_page/testimon_2.png")10% 10%;
+          background-position:cover;
+          background-repeat: no-repeat;
+
+        }
+        &__photo3{
+
+          width: 50%;
+          height: 263px;
+          background: url("../images_first_page/testimon_3.png")100% 100%;
+          background-position:cover;
+          background-repeat: no-repeat;
+
+        }
+
     }
-    
+
     @media screen and (min-width: 610px) and (max-width: 991px){
-         
+
         &__button-right{
-        
+
             display:none;
-             
+
         }
 
          &__button-left{
 
             display:none;
         }
-        
+
         &__person-box{
-        
+
         width: 70%;
         margin:0px;
         padding:0;
         margin-left: 15%;
-        
+
         display:flex;
         flex-flow:row wrap;
         border-radius: 5px;
         background-color: #FFFFFF;
         box-shadow: 0 8px 25px 0 rgba(109,109,109,0.5);
         overflow: hidden;
-        
+
         &__info{
-            
+
             width:50%;
             height: 265px;
             background-color: $main-dark;
             color:#ffffff;
-            
+
             &__text{
-                
+
               width: 70%;
               margin-left:48px;
               margin-top:50px;
@@ -960,11 +1173,11 @@
               font-weight: 500;
               letter-spacing: 0;
               position: relative;
-                
+
             }
-            
+
             &__text::before{
-                
+
                 content:"“";
                 position: absolute;
                 top:-15px;
@@ -974,78 +1187,78 @@
                 font-weight: bold;
                 letter-spacing: 0;
                 line-height: 45px;
-                
+
             }
-            
-            
+
+
             &__name{
-                
+
                 font-family: $main-font;
                 font-size: 14px;
                 letter-spacing: 0;
                 line-height: 25px;
-                
+
             }
             &__post{
-                
+
                 margin-left:48px;
                 font-family: $main-font;
                 font-size: 14px;
                 letter-spacing: 0;
                 line-height: 25px;
-                
+
             }
         }
          &__photo{
-             
-                
+
+
             width: 50%;
             height: 265px;
             background: url("../images_first_page/User%20img.png")100% 100%;
             background-position:cover;
             background-repeat: no-repeat;
         }
-  
+
      }
-        
+
     }
-    
+
     @media screen and (min-width: 323px) and (max-width: 610px){
-         
+
         &__button-right{
-        
+
             display:none;
-             
+
         }
 
          &__button-left{
 
             display:none;
         }
-        
+
         &__person-box{
-        
+
         width: 70%;
         margin:0px;
         padding:0;
         margin-left: 15%;
-        
+
         display:flex;
         flex-flow:row wrap;
         border-radius: 5px;
         background-color: #FFFFFF;
         box-shadow: 0 8px 25px 0 rgba(109,109,109,0.5);
         overflow: hidden;
-        
+
         &__info{
-            
+
             width:100%;
             height: 265px;
             background-color: $main-dark;
             color:#ffffff;
-            
+
             &__text{
-                
+
               width: 70%;
               margin-left:48px;
               margin-top:50px;
@@ -1054,11 +1267,11 @@
               font-weight: 500;
               letter-spacing: 0;
               position: relative;
-                
+
             }
-            
+
             &__text::before{
-                
+
                 content:"“";
                 position: absolute;
                 top:-15px;
@@ -1068,48 +1281,48 @@
                 font-weight: bold;
                 letter-spacing: 0;
                 line-height: 45px;
-                
+
             }
-            
-            
+
+
             &__name{
-                
+
                 font-family: $main-font;
                 font-size: 17px;
                 letter-spacing: 0;
                 line-height: 25px;
-                
+
             }
             &__post{
-                
+
                 margin-left:48px;
                 font-family: $main-font;
                 font-size: 17px;
                 letter-spacing: 0;
                 line-height: 25px;
-                
+
             }
         }
          &__photo{
-             
+
                 display:none;
         }
-  
+
       }
-        
+
     }
-    
+
 }
 
 .contact-us{
-    
-    
+
+
     &__head{
-    
+
             margin-bottom:17px;
 
             &__title{
-            
+
               @include main-title;
               margin-top:80px;
 
@@ -1118,7 +1331,7 @@
                     height: 8px;
                     width: 114px;
                  }
-                
+
                  &__under::before{
 
                     content:"-";
@@ -1143,8 +1356,8 @@
             }
 
             &__text{
-                
-                  
+
+
               margin-bottom:84px;
               color: $main-dark;
               font-family: $main-font;
@@ -1163,18 +1376,18 @@
 
             }
         }
-    
+
     .contact-us__info{
-        
+
         background-color: #F8F8F8;
         display:flex;
         flex-flow: row wrap;
-        
+
         &__next-step{
-        
+
             padding-bottom:34px;
-        
-        
+
+
             &__title{
 
               margin-top:105px;
@@ -1239,16 +1452,16 @@
 
                 border-left: 1px solid #DDDDDD;
             }
-            
+
             .to-top--scroll{
-                
+
                 width: 70px;
                 height: 70px;
                 color: white;
                 background-color: $main-dark;
                 border:2px solid $main-dark;
                 border-radius: 50%;
-                
+
                 a{
                     display:block;
                     color:white;
@@ -1257,32 +1470,32 @@
                     padding-left:10px;
                     padding-top:10px;
                 }
-                
+
             }
-            
+
             .to-top--scroll:hover{
                 background-color: $button-color--hover;
             }
-            
+
             .to-top--scroll a:hover{
                 text-decoration: none;
-                
+
             }
-            
+
         }
-        
+
          &__personal-info{
-             
+
              padding: 0px;
              border-radius:5px;
              overflow: hidden;
              box-shadow: 0 8px 25px 0 #B7B7B7;
              position:relative;
              top:-65px;
-            
-            
+
+
              .personal-info{
-                 
+
                  &__title{
 
                       padding:10px 80px 10px 20px;
@@ -1298,45 +1511,45 @@
                       flex-direction:row;
                       align-items:flex-start;
                       justify-content: space-between;
-                     
+
                      img{
-                         
+
                          margin-right:15px;
                          height:45px;
                          width:45px;
                          margin-bottom:15px;
                      }
                     }
-                 
+
                  &__box{
-                     
+
                      height: 558px;
-                     
+
                      display:flex;
                      flex-direction:row;
-                     
+
                      &__form{
-                     
+
                          width: 100%;
                          padding-left:21px;
                          padding-right:20px;
                          display:flex;
                          flex-direction:column;
                          background-color: #FFFFFF;
-                         
+
                          label{
-                             
+
                               margin-top:30px;
                               color: $main-dark;
                               font-family: $main-font;
                               font-size: 17px;
                               letter-spacing: 0;
                               line-height: 28px;
-                                                     
+
                          }
-                         
+
                          input{
-                             
+
                               box-sizing: border-box;
                               height: 45px;
                               width: 320px;
@@ -1344,23 +1557,23 @@
                               border: 1px solid #DCDCDC;
                               border-radius: 5px;
                          }
-                         
+
                          button{
-                             
+
                               height: 45px;
                               width: 144px;
                               margin-top:30px;
                               line-height: 25px;
                               @include button-dark;
                          }
-                         
+
                          button:hover{
-                             
+
                              background-color: $button-color--hover;
                          }
-                         
+
                          &__email{
-                             
+
                               width: 320px;
                               margin-top: 40px;
                               color: $main-dark;
@@ -1369,20 +1582,20 @@
                               letter-spacing: 0;
                               line-height: 28px;
                          }
-                         
+
                          .input__password{
-                             
+
                              position:relative;
                          }
-                         
+
                          .input__password::after{
-                             
+
                              content:url("../icons_first_page/a-icon-showpass.svg");
                              padding-left:198px;
-                             
+
                          }
                          .input__password::before{
-                             
+
                              content:'show';
                              position:absolute;
                              padding-left:290px;
@@ -1393,34 +1606,34 @@
                              letter-spacing: 0;
                              line-height: 23px;
                          }
-                         
+
                          input:active{
-                             
+
                              border:1px solid $main-dark;
                              color:$main-dark;
                          }
-                         
+
                      }
-                     
+
                      &__map{
-                         
+
                          width: 50%;
-                         
+
                      }
-                     
+
                  }
-                
-                 
+
+
              }
-            
+
         }
-        
+
         @media screen and (min-width: 990px) and (max-width: 1199px){
-            
+
             &__personal-info{
-                
+
                 margin-top:60px;
-                
+
                 .personal-info{
 
                     &__title{
@@ -1429,18 +1642,18 @@
                     }
                 }
             }
-            
+
             &__next-step{
-                
+
                 .to-top--scroll{
-                
+
                     width: 50px;
                     height: 50px;
                     color: white;
                     background-color: $main-dark;
                     border:2px solid $main-dark;
                     border-radius: 50%;
-                    
+
                     a{
                         display:block;
                         color:white;
@@ -1450,44 +1663,44 @@
                     }
                 }
             }
-            
+
         }
-        
+
         @media screen and (min-width: 323px) and (max-width: 990px){
-            
+
             &__personal-info{
-                
+
                 margin-top:60px;
-                
+
                 .personal-info{
 
                     &__title{
-                        
+
                           height: 100px;
                           padding:10px 10px 10px 0px;
                     }
-                    
+
                 }
             }
         }
-    
+
    }
 }
 
 footer{
-    
+
     background-color: #F8F8F8;
     border-top:1px solid #DDDDDD;
 }
 
 .footer-box{
-    
+
     display:flex;
     flex-flow:row wrap;
     align-items: center;
     justify-content: space-between;
     height:71px;
-    
+
     &__icons{
 
                 .icon{
@@ -1496,7 +1709,7 @@ footer{
 
             }
     .logo{
-        
+
       color: $main-dark;
       font-family: $main-font;
       font-size: 17px;
@@ -1504,9 +1717,9 @@ footer{
       letter-spacing: 0;
       line-height: 28px;
     }
-    
+
     &__c{
-        
+
       color: #333333;
       font-family: $main-font;
       font-size: 15px;
