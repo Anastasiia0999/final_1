@@ -1,5 +1,16 @@
+.m{
+    @include make-xs-column(6);
+    @include make-sm-column(6);
+    @include make-md-column(6);
+    @include make-lg-column(6);
+    @include make-xs-column-offset(2);
+    @include make-sm-column-offset(2);
+    @include make-md-column-offset(2);
+    @include make-lg-column-offset(2);
+}
+
 .header__blog{
-    
+
         @include make-xs-column(12);
         @include make-sm-column(12);
         @include make-md-column(12);
@@ -7,9 +18,9 @@
 }
 
 .blog{
-    
+
     &__title{
-    
+
         @include make-xs-column(12);
         @include make-sm-column(12);
         @include make-md-column(12);
@@ -18,7 +29,7 @@
 }
 
 .search-field{
-    
+
     @include make-xs-column(3.2);
     @include make-sm-column(3.2);
     @include make-md-column(3.2);
@@ -30,16 +41,16 @@
 }
 
 .blog-box{
-    
+
     @include make-xs-column(12);
     @include make-sm-column(12);
     @include make-md-column(12);
     @include make-lg-column(12);
-    
+
 }
 
 .button-end{
-    
+
     @include make-xs-column(2);
     @include make-sm-column(2);
     @include make-md-column(2);
@@ -48,5 +59,5 @@
     @include make-sm-column-offset(5);
     @include make-md-column-offset(5);
     @include make-lg-column-offset(5.2);
-    
+
 }

@@ -1,5 +1,5 @@
 @mixin header-logo{
-    
+
     margin-top:25px;
     color: $main-dark;
     font-family: $main-font;
@@ -7,13 +7,13 @@
     font-weight: bold;
     letter-spacing: 0;
     line-height: 28px;
-    
+
 }
 
 @mixin header-nav{
-    
+
     margin-top:28px;
-        
+
         a{
 
             padding-left:38px;
@@ -24,12 +24,12 @@
             line-height: 25px;
 
         }
-        
+
         a:focus{
-            
+
             text-decoration: underline;
         }
-    
+
         a:hover{
 
             font-weight: bold;
@@ -42,51 +42,51 @@
 }
 
 @mixin button-light{
-    
+
     box-sizing: border-box;
     letter-spacing: 0;
     border: 1px solid $button-color-dark;
     border-radius: 5px;
     text-align:center;
-    
+
     font{
-        
+
         family:$main-font;
-        size:15px;    
-        
+        size:15px;
+
     }
-    
+
     background-color: $button-color-light;
-    
+
     color: $button-color-dark;
-    
-    
+
+
 }
 
 @mixin button-dark{
-    
+
     box-sizing: border-box;
     letter-spacing: 0;
     border: 1px solid $button-color-dark;
     border-radius: 5px;
     text-align:center;
-    
+
     font{
-        
+
         family:$main-font;
-        size:15px;    
-        
+        size:15px;
+
     }
-    
+
     background-color: $button-color-dark;
-    
+
     color: white;
-    
-    
+
+
 }
 
 @mixin main-title{
-    
+
     margin-bottom:14.5px;
     text-align:center;
     color: $main-dark;
@@ -94,7 +94,7 @@
     font-size: 24px;
     font-weight: 600;
     letter-spacing: 0;
-    
+
     p{
         margin:0 auto;
         margin-top:2.5px;
@@ -104,11 +104,11 @@
         border-right: 1px solid $main-dark;
         border-left:1px solid $main-dark;
     }
-    
+
 }
 
 @mixin main-text{
-    
+
       color: $main-dark;
       font-family: $main-font;
       font-size: 17px;
@@ -118,7 +118,7 @@
 }
 
 @mixin about-us-box{
-    
+
     height: 184px;
     width: 86%;
     margin-bottom:20px;
@@ -127,24 +127,24 @@
     align-items: center;
     justify-content: center;
     border-radius:5px;
-    
+
 }
 
 @mixin corner-top-right{
-    
+
     content:"";
     width:50px;
     height: 50px;
     background-color: white;
     position:absolute;
-    margin-left:35%;
-    margin-top:-73px;
-    border-bottom-left-radius: 5px; 
-    
+    margin-left:70%;
+    margin-top:-140px;
+    border-bottom-left-radius: 5px;
+
 }
 
 @mixin corner-top-left{
-    
+
     content:"";
     width:50px;
     height: 50px;
@@ -152,29 +152,29 @@
     position:absolute;
     right:85%;
     top:200px;
-    border-bottom-right-radius: 5px; 
-    
+    border-bottom-right-radius: 5px;
+
 }
 
 
 @mixin latest-post{
-    
+
     height: 244px;
     margin:0px;
     margin-bottom:19.5px;
-    
+
 }
 
 @mixin statistic{
-    
+
             display:flex;
             flex-direction: row;
             justify-content: left;
             align-items: center;
-            
-            
+
+
             .date{
-                
+
               height: 25px;
               color: $icon-color;
               font-family: $main-font;
@@ -182,9 +182,9 @@
               letter-spacing: 0;
               line-height: 25px;
             }
-            
+
             .dot1{
-                
+
                 height: 3px;
                 width: 3px;
                 margin-left:11px;
@@ -192,9 +192,9 @@
                 border-radius: 2px;
                 background-color: $icon-color;
             }
-            
+
             .dot2{
-                
+
                 height: 3px;
                 width: 3px;
                 margin-left:11px;
@@ -202,37 +202,37 @@
                 border-radius: 2px;
                 background-color: $icon-color;
             }
-            
+
             .read{
-                
+
                 height: 25px;
                 color: $icon-color;
                 font-family: $main-font;
                 font-size: 15px;
                 letter-spacing: 0;
                 line-height: 25px;
-                
+
             }
-            
+
             img{
-                
+
                 height: 13px;
                 width: 14px;
             }
-            
+
             .number-comments{
-                
+
                   padding-left:5px;
                   color: $icon-color;
                   font-family: $main-font;
                   font-size: 15px;
                   letter-spacing: 0;
-                  line-height: 25px;  
+                  line-height: 25px;
             }
 }
 
 @mixin post--hover{
-    
+
     position:absolute;
     width: 45px;
     height: 45px;
@@ -243,11 +243,11 @@
     text-align:center;
     margin-top:24.5%;
     background-color: rgba(0,0,0,0.5);
-    
+
 }
 
 @mixin post-before--hover{
-    
+
     content:url("../icons_first_page/a-icon-search.svg");
     margin-left:39.5%;
     border-top-right-radius:5px;
@@ -255,7 +255,7 @@
 }
 
 @mixin post-after--hover{
-    
+
     content:url("../icons_first_page/a-icon-attach.svg");
     margin-left:28.5%;
     border-top-left-radius:5px;
@@ -263,17 +263,17 @@
 }
 
 @mixin latest-portfolio{
-    
+
     display:flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-            
+
     height: 243px;
 }
 
 @mixin testimonials-button{
-    
+
     height: 45px;
     width: 45px;
     margin-top:110px;
@@ -284,6 +284,6 @@
     display:flex;
     flex-direction:row;
     justify-content: center;
-    align-items: center;   
-    
+    align-items: center;
+
 }

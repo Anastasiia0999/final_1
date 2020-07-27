@@ -20,10 +20,35 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="baef48d6-50f0-4099-8957-0c3d94332fdd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jsLinters/eslint.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/BlogPageController.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/BlogPageModel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/BlogPageView.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/HomePageView.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/PostPageView.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/add-article.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/_styles_first_page.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/_styles_first_page.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/NewPostController.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/NewPostModel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/NewPostView.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/post.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/sliders.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bootstrap/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bootstrap/bootstrap.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/jquery-3.5.1.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/jquery/jquery-3.5.1.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/post.html" beforeDir="false" afterPath="$PROJECT_DIR$/post.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/_grid_second_page.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/_grid_second_page.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/_grid_third_page.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/_grid_third_page.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/_mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/_mixins.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/_styles_second_page.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/_styles_second_page.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/_styles_third_page.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/_styles_third_page.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,16 +66,32 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="PackageJsonUpdateNotifier">
+    <dismissed value="$PROJECT_DIR$/package.json" />
+  </component>
   <component name="ProjectId" id="1e5F94sPtJIlpWUimrbcTPx9IQk" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="js.linters.configure.manually.selectedeslint" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.eslintrc.json" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.selected.package.eslint" value="C:\Users\anast\AppData\Roaming\npm\node_modules\eslint" />
+    <property name="node.js.selected.package.standard" value="" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="settings.javascript.linters.eslint" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -73,6 +114,17 @@
       <workItem from="1594467319346" duration="5556000" />
       <workItem from="1594547298014" duration="6037000" />
       <workItem from="1594634025602" duration="4321000" />
+      <workItem from="1594639018543" duration="282000" />
+      <workItem from="1594639695004" duration="644000" />
+      <workItem from="1595074228320" duration="12552000" />
+      <workItem from="1595256207673" duration="6502000" />
+      <workItem from="1595324081399" duration="7688000" />
+      <workItem from="1595410169371" duration="1504000" />
+      <workItem from="1595411726087" duration="2469000" />
+      <workItem from="1595499433659" duration="22371000" />
+      <workItem from="1595575269253" duration="8008000" />
+      <workItem from="1595843674373" duration="992000" />
+      <workItem from="1595844710358" duration="678000" />
     </task>
     <servers />
   </component>
@@ -92,6 +144,14 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="451" y="155" key="#ESLint" timestamp="1595505942995">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="451" y="155" key="#ESLint/0.0.1536.834@0.0.1536.834" timestamp="1595505942995" />
+    <state x="223" y="72" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1595331514180">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="223" y="72" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.834@0.0.1536.834" timestamp="1595331514180" />
     <state x="539" y="219" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1593697260742">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -100,6 +160,14 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="499" y="164" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.834@0.0.1536.834" timestamp="1593966839115" />
+    <state x="548" y="172" key="FileChooserDialogImpl" timestamp="1595333508937">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="548" y="172" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1595333508937" />
+    <state x="277" y="62" key="SettingsEditor" timestamp="1595331960042">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="277" y="62" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1595331960042" />
     <state x="478" y="16" width="579" height="801" key="find.popup" timestamp="1593606851874">
       <screen x="0" y="0" width="1536" height="834" />
     </state>

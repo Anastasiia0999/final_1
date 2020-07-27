@@ -2691,6 +2691,61 @@ hr {
   }
 }
 
+.m {
+  position: relative;
+  float: left;
+  width: 50%;
+  min-height: 1px;
+  padding-right: 10px;
+  padding-left: 10px;
+  position: relative;
+  min-height: 1px;
+  padding-right: 10px;
+  padding-left: 10px;
+  position: relative;
+  min-height: 1px;
+  padding-right: 10px;
+  padding-left: 10px;
+  position: relative;
+  min-height: 1px;
+  padding-right: 10px;
+  padding-left: 10px;
+  margin-left: 16.6666666667%;
+}
+@media (min-width: 768px) {
+  .m {
+    float: left;
+    width: 50%;
+  }
+}
+@media (min-width: 992px) {
+  .m {
+    float: left;
+    width: 50%;
+  }
+}
+@media (min-width: 1200px) {
+  .m {
+    float: left;
+    width: 50%;
+  }
+}
+@media (min-width: 768px) {
+  .m {
+    margin-left: 16.6666666667%;
+  }
+}
+@media (min-width: 992px) {
+  .m {
+    margin-left: 16.6666666667%;
+  }
+}
+@media (min-width: 1200px) {
+  .m {
+    margin-left: 16.6666666667%;
+  }
+}
+
 .header__blog {
   position: relative;
   float: left;
@@ -2915,55 +2970,6 @@ hr {
 @media (min-width: 1200px) {
   .button-end {
     margin-left: 43.3333333333%;
-  }
-}
-
-.m {
-  position: relative;
-  float: left;
-  width: 50%;
-  min-height: 1px;
-  padding-right: 10px;
-  padding-left: 10px;
-  position: relative;
-  min-height: 1px;
-  padding-right: 10px;
-  padding-left: 10px;
-  position: relative;
-  min-height: 1px;
-  padding-right: 10px;
-  padding-left: 10px;
-  position: relative;
-  min-height: 1px;
-  padding-right: 10px;
-  padding-left: 10px;
-}
-@media (min-width: 768px) {
-  .m {
-    float: left;
-    width: 50%;
-  }
-}
-@media (min-width: 992px) {
-  .m {
-    float: left;
-    width: 50%;
-  }
-}
-@media (min-width: 1200px) {
-  .m {
-    float: left;
-    width: 50%;
-  }
-}
-@media (min-width: 992px) {
-  .m {
-    margin-left: 16.6666666667%;
-  }
-}
-@media (min-width: 1200px) {
-  .m {
-    margin-left: 16.6666666667%;
   }
 }
 
@@ -3435,8 +3441,8 @@ hr {
   height: 50px;
   background-color: white;
   position: absolute;
-  margin-left: 35%;
-  margin-top: -73px;
+  margin-left: 70%;
+  margin-top: -140px;
   border-bottom-left-radius: 5px;
 }
 .box-about-us__icons {
@@ -3485,8 +3491,8 @@ hr {
   height: 50px;
   background-color: white;
   position: absolute;
-  margin-left: 35%;
-  margin-top: -73px;
+  margin-left: 70%;
+  margin-top: -140px;
   border-bottom-left-radius: 5px;
 }
 .box-about-us__video {
@@ -4941,6 +4947,7 @@ footer {
 
 .m {
   display: none;
+  padding: 0px;
   height: auto;
   margin-top: 5%;
   position: absolute;
@@ -4948,6 +4955,7 @@ footer {
   background-color: #FCF6F6;
 }
 .m form {
+  width: auto;
   padding-left: 10%;
   display: flex;
   flex-direction: column;
@@ -4994,6 +5002,14 @@ footer {
   border-radius: 5px;
   font-size: 20px;
 }
+.m form select {
+  width: 200px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  border: 1px solid grey;
+  border-radius: 5px;
+  font-size: 20px;
+}
 .m form .buttons {
   width: 100%;
   display: flex;
@@ -5026,6 +5042,7 @@ footer {
 .m form .button:hover {
   color: white;
   background: #393737;
+  cursor: pointer;
 }
 
 .header__blog {
@@ -5354,7 +5371,6 @@ footer {
   background-color: #FCF6F6;
 }
 .blog-box__last {
-  /*width: 54%;*/
   display: flex;
   flex-direction: column;
   padding-left: 40px;
@@ -5363,6 +5379,11 @@ footer {
 .blog-box__last__author {
   display: flex;
   flex-direction: row;
+}
+.blog-box__last__author img {
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
 }
 .blog-box__last__author .statistic {
   padding-left: 20px;
@@ -5471,6 +5492,13 @@ footer {
   line-height: 25px;
   color: #4D4949;
   background-color: #FCF6F6;
+}
+.blog-box__last button a {
+  text-decoration: none;
+  color: #4D4949;
+}
+.blog-box__last button a:hover {
+  color: white;
 }
 .blog-box__last button:hover {
   background: #393737;
@@ -5607,6 +5635,11 @@ footer {
   .blog-box__last__author {
     display: flex;
     flex-flow: row wrap;
+  }
+  .blog-box__last__author img {
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
   }
   .blog-box__last__author .statistic {
     padding-left: 5px;
@@ -5756,6 +5789,17 @@ footer {
 .header__page__navigation #pages {
   text-decoration: underline;
   font-weight: 600;
+}
+
+.play-icon {
+  position: absolute;
+  height: 72px;
+  width: 72px;
+  background-color: rgba(77, 73, 73, 0.7);
+  border-radius: 50%;
+  top: 300px;
+  left: 300px;
+  z-index: 3;
 }
 
 .page {
