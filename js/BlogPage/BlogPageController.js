@@ -1,11 +1,13 @@
 import { BlogPageModel } from './BlogPageModel.js';
 import { BlogPageView } from './BlogPageView.js';
-import { Post, VideoPost, AudioPost } from './NewPostView.js';
+import { Post, VideoPost, AudioPost } from './NewPost.js';
 
 export class BlogPageController {
     constructor() {
         this.model = new BlogPageModel();
-        this.view = new BlogPageView(this.handleAddModal, this.handleFormSubmit, this.handlePageRender);
+        this.view = new BlogPageView();
+        console.log('blog page');
+        this.handlePageRender();
     }
 
     createPost = (obj) => {
@@ -41,30 +43,5 @@ export class BlogPageController {
                     this.createPost(el);
                 });
             });
-    }
-
-    handleAddModal = (ev) => {
-        ev.preventDefault();
-        this.view.renderModal();
-    }
-
-    handleFormSubmit = (ev) => {
-        ev.preventDefault();
-        const data = [...ev.target].reduce((obj, el) => {
-            const dataPost = obj;
-            if (el.type !== 'submit' && el.type !== 'button') {
-                dataPost[el.name] = el.value;
-            }
-            return dataPost;
-        }, {});
-
-        if (!this.model.validateData(data)) {
-            alert('Invalid data');
-        } else {
-            const endVersion = this.model.prepareData(data);
-            this.model.addPost(endVersion);
-            this.createPost(endVersion);
-            this.view.deleteForm();
-        }
     }
 }

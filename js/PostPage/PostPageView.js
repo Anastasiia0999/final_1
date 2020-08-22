@@ -1,16 +1,6 @@
-const { href } = window.location;
-
 const root = document.querySelector('.page');
 
-const id = href.slice(href.lastIndexOf('#') + 1, href.length);
-
-function getPageData() {
-    return fetch(`http://localhost:3000/api/list/${id}`)
-        .then((posts) => posts.json())
-        .catch((error) => console.error(error));
-}
-
-class FullPost {
+export class FullPost {
     constructor(data) {
         this.data = data;
     }
@@ -43,6 +33,13 @@ class FullPost {
                         
                         <div class="audio"> </div>
                         <div class="text"> </div>
+                        <div class="page__trends-container">
+
+                            <p class="page__trends-container__inner-text">
+                            ${this.data.quote}
+                            </p>
+
+                         </div>
                     
                         <div class="page__footer">
                             <div class="page__footer__like-icon">
@@ -86,6 +83,13 @@ class FullPost {
                         
                         <div class="audio"> </div>
                         <div class="text"> </div>
+                        <div class="page__trends-container">
+
+                            <p class="page__trends-container__inner-text">
+                            ${this.data.quote}
+                            </p>
+
+                         </div>
                     
                         <div class="page__footer">
                             <div class="page__footer__like-icon">
@@ -111,15 +115,11 @@ class FullPost {
         innerText = innerText.replace('t/', ' <p class="page__trends-title">');
         innerText = innerText.replace('/t', '</p>');
 
-        innerText = innerText.replace('q/', '<div class="page__trends-container"><p class="page__trends-container__inner-text">');
-        innerText = innerText.replace('/q', '</p></div>');
-
         text.innerHTML = innerText;
     };
 }
 
-class VideoFullPost extends FullPost {
-
+export class VideoFullPost extends FullPost {
     renderPicturePost = () => {
         root.innerHTML = `<div class="page__title">
                         ${this.data.title}
@@ -150,6 +150,13 @@ class VideoFullPost extends FullPost {
                         <img class="play-icon" src="./icons_first_page/a-icon-play.svg" alt="">
                         
                         <div class="text"> </div>
+                        <div class="page__trends-container">
+
+                            <p class="page__trends-container__inner-text">
+                            ${this.data.quote}
+                            </p>
+
+                         </div>
                     
                         <div class="page__footer">
                             <div class="page__footer__like-icon">
@@ -165,8 +172,7 @@ class VideoFullPost extends FullPost {
     };
 }
 
-class AudioFullPost extends FullPost {
-
+export class AudioFullPost extends FullPost {
     renderPicturePost = () => {
         root.innerHTML = `<div class="page__title">
                         ${this.data.title}
@@ -202,6 +208,13 @@ class AudioFullPost extends FullPost {
                          </audio>
                          
                         <div class="text"> </div>
+                        <div class="page__trends-container">
+
+                            <p class="page__trends-container__inner-text">
+                            ${this.data.quote}
+                            </p>
+
+                         </div>
                     
                         <div class="page__footer">
                             <div class="page__footer__like-icon">
@@ -250,6 +263,13 @@ class AudioFullPost extends FullPost {
                          </audio>
                          
                         <div class="text"> </div>
+                        <div class="page__trends-container">
+
+                            <p class="page__trends-container__inner-text">
+                            ${this.data.quote}
+                            </p>
+
+                         </div>
                     
                         <div class="page__footer">
                             <div class="page__footer__like-icon">
@@ -264,34 +284,3 @@ class AudioFullPost extends FullPost {
                         </div>`;
     };
 }
-
-getPageData().then((obj) => {
-    if (obj.urlimage === '') {
-        if (obj.type === '1') {
-            const audioPost = new AudioFullPost(obj);
-            audioPost.renderTextPost();
-            audioPost.renderText();
-        }
-        if (obj.type === '2') {
-            const textPost = new FullPost(obj);
-            textPost.renderTextPost();
-            textPost.renderText();
-        }
-    } else {
-        if (obj.type === '0') {
-            const videoPost = new VideoFullPost(obj);
-            videoPost.renderPicturePost();
-            videoPost.renderText();
-        }
-        if (obj.type === '1') {
-            const audioPost = new AudioFullPost(obj);
-            audioPost.renderPicturePost();
-            audioPost.renderText();
-        }
-        if (obj.type === '2') {
-            const picturePost = new FullPost(obj);
-            picturePost.renderPicturePost();
-            picturePost.renderText();
-        }
-    }
-});
