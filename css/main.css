@@ -3198,6 +3198,125 @@ hr {
   }
 }
 
+label {
+  font-size: 20px;
+}
+
+.info {
+  font-size: 20px;
+}
+
+.submit {
+  height: 30px;
+  width: 100px;
+  font-size: 28px;
+}
+
+.add-post-form {
+  width: 50%;
+  height: auto;
+  margin-left: 25%;
+  margin-bottom: 5%;
+  padding-left: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  color: #4D4949;
+  font-family: "Hind Siliguri";
+  border: 1px solid grey;
+  border-radius: 5px;
+  box-shadow: 0 0 5px 2px;
+}
+.add-post-form h2 {
+  padding-top: 20px;
+  padding-left: 27%;
+  font-size: 26px;
+  font-weight: bold;
+}
+.add-post-form .info {
+  display: none;
+  padding: 20px 20px 20px 20px;
+  font-style: italic;
+  color: red;
+  font-weight: 600;
+  font-size: 18px;
+}
+.add-post-form label {
+  font-size: 24px;
+  padding-right: 5%;
+}
+.add-post-form .input {
+  width: 500px;
+  line-height: 30px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  font-size: 20px;
+  border: 1px solid grey;
+  border-radius: 5px;
+}
+.add-post-form textarea {
+  width: 500px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  border: 1px solid grey;
+  border-radius: 5px;
+  font-size: 20px;
+}
+.add-post-form select {
+  width: 200px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  border: 1px solid grey;
+  border-radius: 5px;
+  font-size: 20px;
+}
+.add-post-form .buttons {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.add-post-form .button {
+  height: 45px;
+  width: 125px;
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  margin-right: 10%;
+  font-size: 20px;
+  text-decoration: none;
+  box-sizing: border-box;
+  letter-spacing: 0;
+  border: 1px solid #4D4949;
+  border-radius: 5px;
+  text-align: center;
+  background-color: #efe9df;
+  color: #4D4949;
+  font-size: 20px;
+  background-color: #FCF6F6;
+}
+.add-post-form .button font {
+  family: "Hind Siliguri";
+  size: 15px;
+}
+.add-post-form .button:hover {
+  color: white;
+  background: #393737;
+  cursor: pointer;
+}
+.add-post-form a {
+  display: block;
+  padding-right: 15px;
+  height: 45px;
+  width: 125px;
+  color: dimgray;
+}
+.add-post-form a:hover {
+  text-decoration: none;
+  color: white;
+}
+
 .header {
   height: 600px;
   background: url("../images_first_page/bg.jpg") 100% 100%;
@@ -3205,7 +3324,7 @@ hr {
   background-color: rgba(243, 243, 243, 0.55);
 }
 .header__box {
-  margin-bottom: 100px;
+  margin-bottom: 20px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -3242,6 +3361,9 @@ hr {
 .header__navigation #home {
   font-weight: bold;
   text-decoration: underline;
+}
+.header__text {
+  margin-top: 100px;
 }
 .header__text__title {
   width: 65%;
@@ -4943,106 +5065,6 @@ footer {
   font-size: 15px;
   letter-spacing: 0;
   line-height: 25px;
-}
-
-.m {
-  display: none;
-  padding: 0px;
-  height: auto;
-  margin-top: 5%;
-  position: absolute;
-  z-index: 5;
-  background-color: #FCF6F6;
-}
-.m form {
-  width: auto;
-  padding-left: 10%;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-  color: #4D4949;
-  font-family: "Hind Siliguri";
-  border: 1px solid grey;
-  border-radius: 5px;
-  box-shadow: 0 0 5px 2px;
-}
-.m form h2 {
-  padding-top: 20px;
-  padding-left: 27%;
-  font-size: 26px;
-  font-weight: bold;
-}
-.m form .info {
-  display: none;
-  padding: 20px 0px 20px 0px;
-  font-style: italic;
-  color: red;
-  font-weight: 600;
-  font-size: 18px;
-}
-.m form label {
-  font-size: 24px;
-  padding-right: 5%;
-}
-.m form .input {
-  width: 500px;
-  line-height: 30px;
-  margin-bottom: 20px;
-  margin-top: 20px;
-  font-size: 20px;
-  border: 1px solid grey;
-  border-radius: 5px;
-}
-.m form textarea {
-  width: 500px;
-  margin-bottom: 20px;
-  margin-top: 20px;
-  border: 1px solid grey;
-  border-radius: 5px;
-  font-size: 20px;
-}
-.m form select {
-  width: 200px;
-  margin-bottom: 20px;
-  margin-top: 20px;
-  border: 1px solid grey;
-  border-radius: 5px;
-  font-size: 20px;
-}
-.m form .buttons {
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-.m form .button {
-  height: 45px;
-  width: 125px;
-  padding: 10px;
-  margin-top: 20px;
-  margin-bottom: 30px;
-  margin-right: 20px;
-  font-size: 20px;
-  text-decoration: none;
-  box-sizing: border-box;
-  letter-spacing: 0;
-  border: 1px solid #4D4949;
-  border-radius: 5px;
-  text-align: center;
-  background-color: #efe9df;
-  color: #4D4949;
-  font-size: 20px;
-  background-color: #FCF6F6;
-}
-.m form .button font {
-  family: "Hind Siliguri";
-  size: 15px;
-}
-.m form .button:hover {
-  color: white;
-  background: #393737;
-  cursor: pointer;
 }
 
 .header__blog {

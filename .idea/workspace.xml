@@ -20,35 +20,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="baef48d6-50f0-4099-8957-0c3d94332fdd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jsLinters/eslint.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/BlogPageController.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/BlogPageModel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/BlogPageView.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/HomePageView.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/PostPageView.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/BlogPage/BlogPageModel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/BlogPage/BlogPageView.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/add-article.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/NewPostController.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/NewPostModel.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/NewPostView.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/post.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/sliders.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bootstrap/bootstrap.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bootstrap/bootstrap.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/jquery-3.5.1.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/jquery/jquery-3.5.1.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/BlogPageController.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/BlogPage/BlogPageController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/BlogPageModel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/BlogPageView.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/HomePageView.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/NewPostView.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/BlogPage/NewPost.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/PostPageView.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/PostPage/PostPageView.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/post.html" beforeDir="false" afterPath="$PROJECT_DIR$/post.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/_grid_second_page.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/_grid_second_page.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/_grid_third_page.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/_grid_third_page.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/_mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/_mixins.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/_styles_first_page.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/_styles_first_page.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/_styles_form.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/_styles_form.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/_styles_second_page.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/_styles_second_page.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/_styles_third_page.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/_styles_third_page.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/main.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,6 +84,13 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="settings.javascript.linters.eslint" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\anast\OneDrive\Desktop\final_1\js\PostPage" />
+      <recent name="C:\Users\anast\OneDrive\Desktop\final_1\js\BlogPage" />
+      <recent name="C:\Users\anast\OneDrive\Desktop\final_1\js\Form" />
+    </key>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -125,6 +123,10 @@
       <workItem from="1595575269253" duration="8008000" />
       <workItem from="1595843674373" duration="992000" />
       <workItem from="1595844710358" duration="678000" />
+      <workItem from="1596540676195" duration="107000" />
+      <workItem from="1597742415195" duration="20393000" />
+      <workItem from="1597996588133" duration="15685000" />
+      <workItem from="1598089086916" duration="3639000" />
     </task>
     <servers />
   </component>
@@ -156,10 +158,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="539" y="219" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.834@0.0.1536.834" timestamp="1593697260742" />
-    <state x="499" y="164" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1593966839115">
+    <state x="499" y="164" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1598007647253">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="499" y="164" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.834@0.0.1536.834" timestamp="1593966839115" />
+    <state x="499" y="164" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.834@0.0.1536.834" timestamp="1598007647253" />
     <state x="548" y="172" key="FileChooserDialogImpl" timestamp="1595333508937">
       <screen x="0" y="0" width="1536" height="834" />
     </state>

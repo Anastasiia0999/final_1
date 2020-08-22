@@ -6,7 +6,7 @@ export class BlogPageController {
     constructor() {
         this.model = new BlogPageModel();
         this.view = new BlogPageView();
-        console.log('blog page');
+
         this.handlePageRender();
     }
 
