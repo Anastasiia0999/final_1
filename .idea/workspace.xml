@@ -20,26 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="baef48d6-50f0-4099-8957-0c3d94332fdd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/js/BlogPage/BlogPageModel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/BlogPage/BlogPageView.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/BlogPageController.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/BlogPage/BlogPageController.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/BlogPageModel.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/BlogPageView.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/HomePageView.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/NewPostView.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/BlogPage/NewPost.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/PostPageView.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/PostPage/PostPageView.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/post.html" beforeDir="false" afterPath="$PROJECT_DIR$/post.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/_styles_first_page.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/_styles_first_page.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/_styles_form.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/_styles_form.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/_styles_second_page.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/_styles_second_page.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/main.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,6 +108,7 @@
       <workItem from="1597742415195" duration="20393000" />
       <workItem from="1597996588133" duration="15685000" />
       <workItem from="1598089086916" duration="3639000" />
+      <workItem from="1598093392190" duration="107000" />
     </task>
     <servers />
   </component>
