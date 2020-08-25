@@ -168,3 +168,4 @@ document.addEventListener('DOMContentLoaded', () => {
     const testimonialsSlider = new TestimonialsSlider(605, 1, 3, testimonialsNode);
     testimonialsSlider.addEventsBtn(btnR, btnL);
 });
+

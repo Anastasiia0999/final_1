@@ -1,0 +1,129 @@
+.authors-list-top{
+  @include make-xs-column(9);
+  @include make-sm-column(9);
+  @include make-md-column(9);
+  @include make-lg-column(9);
+}
+.authors-list-aside{
+  @include make-xs-column(2);
+  @include make-sm-column(2);
+  @include make-md-column(2);
+  @include make-lg-column(2);
+}
+.post{
+  @include make-xs-column(9);
+  @include make-sm-column(9);
+  @include make-md-column(9);
+  @include make-lg-column(9);
+}
+.post-item:focus{
+  font-weight: bold;
+}
+.post-item-aside:focus{
+  font-weight: bold;
+}
+
+.authors-list-top {
+  height: 80px;
+  display:flex;
+  flex-direction: row;
+  color: $main-dark;
+  background: $blog-box-color;
+  font-family: $main-font;
+  font-weight: 400;
+  font-size: 20px;
+  border-radius: 5px;
+}
+.authors-li-top{
+  margin-right:20px;
+  margin-top:10px;
+}
+.authors-li-top:hover{
+  cursor: pointer;
+}
+.top-posts{
+  display:inline;
+}
+.top-posts:hover{
+  cursor:pointer;
+}
+.post-item{
+  display: inline;
+  margin-right:20px;
+}
+.authors-list-aside {
+  height: 500px;
+  position:absolute;
+  right:10%;
+  text-align:right;
+  color: $main-dark;
+  background: $blog-box-color;
+  font-family: $main-font;
+  font-weight: 400;
+  font-size: 20px;
+  border-radius: 5px;
+}
+
+.post{
+  height: 400px;
+  margin-top:20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  background: $blog-box-color;
+}
+
+.authors-li-aside{
+  margin-top:10px;
+}
+.authors-li-aside:hover{
+  cursor: pointer;
+}
+.post-item-aside{
+  margin-top:10px;
+  text-align:right;
+  color: $main-dark;
+  font-family: $main-font;
+}
+.post-item-aside:hover{
+  cursor:pointer;
+}
+
+.post-title{
+  margin-top:10px;
+  color: $main-dark;
+  font-family: $main-font;
+  font-weight: 500;
+  font-size: 25px;
+}
+
+.post-paragraph{
+
+  margin-top:10px;
+  color: $main-dark;
+  font-family: $main-font;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.post-content-title{
+
+  margin-top:10px;
+  color: $main-dark;
+  font-family: $main-font;
+  font-weight: 500;
+  font-size: 23px;
+}
+
+.quote{
+  margin-top:10px;
+}
+
+.post-date{
+  margin-top:10px;
+  text-align: right;
+  color: $main-dark;
+  font-family: $main-font;
+  font-weight: 500;
+  font-size: 16px;
+}
+

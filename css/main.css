@@ -1584,14 +1584,6 @@ hr {
     width: 900px;
   }
 }
-/*@font-face {
-    font-family: "Hind Siliguri"; 
-    src: url("../fonts/HindSiliguri-Bold.ttf");
-    src: url("../fonts/HindSiliguri-Light.ttf");
-    src: url("../fonts/HindSiliguri-Medium.ttf");
-    src: url("../fonts/HindSiliguri-Regular.ttf");
-    src: url("../fonts/HindSiliguri-SemiBold.ttf");
-}*/
 @font-face {
   font-family: "Hind Siliguri";
   font-style: normal;
@@ -3196,6 +3188,242 @@ hr {
   .trends {
     margin-left: 4.1666666667%;
   }
+}
+
+.authors-list-top {
+  position: relative;
+  float: left;
+  width: 75%;
+  min-height: 1px;
+  padding-right: 10px;
+  padding-left: 10px;
+  position: relative;
+  min-height: 1px;
+  padding-right: 10px;
+  padding-left: 10px;
+  position: relative;
+  min-height: 1px;
+  padding-right: 10px;
+  padding-left: 10px;
+  position: relative;
+  min-height: 1px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+@media (min-width: 768px) {
+  .authors-list-top {
+    float: left;
+    width: 75%;
+  }
+}
+@media (min-width: 992px) {
+  .authors-list-top {
+    float: left;
+    width: 75%;
+  }
+}
+@media (min-width: 1200px) {
+  .authors-list-top {
+    float: left;
+    width: 75%;
+  }
+}
+
+.authors-list-aside {
+  position: relative;
+  float: left;
+  width: 16.6666666667%;
+  min-height: 1px;
+  padding-right: 10px;
+  padding-left: 10px;
+  position: relative;
+  min-height: 1px;
+  padding-right: 10px;
+  padding-left: 10px;
+  position: relative;
+  min-height: 1px;
+  padding-right: 10px;
+  padding-left: 10px;
+  position: relative;
+  min-height: 1px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+@media (min-width: 768px) {
+  .authors-list-aside {
+    float: left;
+    width: 16.6666666667%;
+  }
+}
+@media (min-width: 992px) {
+  .authors-list-aside {
+    float: left;
+    width: 16.6666666667%;
+  }
+}
+@media (min-width: 1200px) {
+  .authors-list-aside {
+    float: left;
+    width: 16.6666666667%;
+  }
+}
+
+.post {
+  position: relative;
+  float: left;
+  width: 75%;
+  min-height: 1px;
+  padding-right: 10px;
+  padding-left: 10px;
+  position: relative;
+  min-height: 1px;
+  padding-right: 10px;
+  padding-left: 10px;
+  position: relative;
+  min-height: 1px;
+  padding-right: 10px;
+  padding-left: 10px;
+  position: relative;
+  min-height: 1px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+@media (min-width: 768px) {
+  .post {
+    float: left;
+    width: 75%;
+  }
+}
+@media (min-width: 992px) {
+  .post {
+    float: left;
+    width: 75%;
+  }
+}
+@media (min-width: 1200px) {
+  .post {
+    float: left;
+    width: 75%;
+  }
+}
+
+.post-item:focus {
+  font-weight: bold;
+}
+
+.post-item-aside:focus {
+  font-weight: bold;
+}
+
+.authors-list-top {
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  color: #4D4949;
+  background: #FCF6F6;
+  font-family: "Hind Siliguri";
+  font-weight: 400;
+  font-size: 20px;
+  border-radius: 5px;
+}
+
+.authors-li-top {
+  margin-right: 20px;
+  margin-top: 10px;
+}
+
+.authors-li-top:hover {
+  cursor: pointer;
+}
+
+.top-posts {
+  display: inline;
+}
+
+.top-posts:hover {
+  cursor: pointer;
+}
+
+.post-item {
+  display: inline;
+  margin-right: 20px;
+}
+
+.authors-list-aside {
+  height: 500px;
+  position: absolute;
+  right: 10%;
+  text-align: right;
+  color: #4D4949;
+  background: #FCF6F6;
+  font-family: "Hind Siliguri";
+  font-weight: 400;
+  font-size: 20px;
+  border-radius: 5px;
+}
+
+.post {
+  height: 400px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  background: #FCF6F6;
+}
+
+.authors-li-aside {
+  margin-top: 10px;
+}
+
+.authors-li-aside:hover {
+  cursor: pointer;
+}
+
+.post-item-aside {
+  margin-top: 10px;
+  text-align: right;
+  color: #4D4949;
+  font-family: "Hind Siliguri";
+}
+
+.post-item-aside:hover {
+  cursor: pointer;
+}
+
+.post-title {
+  margin-top: 10px;
+  color: #4D4949;
+  font-family: "Hind Siliguri";
+  font-weight: 500;
+  font-size: 25px;
+}
+
+.post-paragraph {
+  margin-top: 10px;
+  color: #4D4949;
+  font-family: "Hind Siliguri";
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.post-content-title {
+  margin-top: 10px;
+  color: #4D4949;
+  font-family: "Hind Siliguri";
+  font-weight: 500;
+  font-size: 23px;
+}
+
+.quote {
+  margin-top: 10px;
+}
+
+.post-date {
+  margin-top: 10px;
+  text-align: right;
+  color: #4D4949;
+  font-family: "Hind Siliguri";
+  font-weight: 500;
+  font-size: 16px;
 }
 
 label {
